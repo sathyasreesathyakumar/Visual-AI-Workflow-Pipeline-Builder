@@ -1,70 +1,124 @@
-# Getting Started with Create React App
+# Visual AI Workflow Pipeline Builder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
 
-## Available Scripts
+Visual AI Workflow Pipeline Builder is an interactive web application that enables users to design AI workflows using a drag-and-drop interface. Users can visually connect different processing nodes to create customizable AI pipelines, making complex workflows easier to understand and manage.
 
-In the project directory, you can run:
+This project demonstrates frontend development, component-based architecture, state management, and workflow visualization.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Interactive drag-and-drop workflow builder
+* Multiple customizable node types
+* Connect nodes to create AI pipelines
+* Visual workflow representation
+* Pipeline validation
+* Modular and scalable architecture
+* Responsive user interface
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Technologies Used
 
-### `npm run build`
+### Frontend
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* React
+* JavaScript
+* React Flow
+* CSS
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Backend (Planned)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* FastAPI
+* Python
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Project Structure
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```text
+Visual-AI-Workflow-Pipeline-Builder
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   └── ...
+│
+├── backend
+│   ├── main.py
+│   └── ...
+│
+└── README.md
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Installation
 
-## Learn More
+Clone the repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+git clone https://github.com/your-username/Visual-AI-Workflow-Pipeline-Builder.git
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Navigate to the frontend:
 
-### Code Splitting
+```bash
+cd frontend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Install dependencies:
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Start the development server:
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## Current Status
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+* Frontend workflow builder implemented.
+* Drag-and-drop functionality available.
+* Multiple workflow nodes supported.
+* Backend integration is under development.
 
-### Deployment
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Future Enhancements
 
-### `npm run build` fails to minify
+* FastAPI backend integration
+* AI model execution
+* Workflow execution engine
+* Save and load workflows
+* User authentication
+* Database integration
+* Workflow templates
+* Real-time collaboration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## Learning Outcomes
+
+This project strengthened my understanding of:
+
+* React component architecture
+* State management
+* Interactive UI development
+* Node-based workflow design
+* Frontend application structure
+* Preparing applications for backend integration
+
+---
+
+## License
+
+This project is intended for educational purposes and portfolio demonstration.
